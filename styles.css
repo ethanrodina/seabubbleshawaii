@@ -1,0 +1,44 @@
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+}
+div.logo {
+  float: left;
+}
+td{
+  border: 1px solid black;
+}
+td a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+div.socialmedia, {
+  float: left;
+  width: 10%;
+}
+div.heading, {
+  float: left;
+  width: 90%;
+}
+h1 {
+  padding-left: 275px;
+}
+div.logo {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+nav {
+  position: absolute;
+  left: 300px;
+}
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
