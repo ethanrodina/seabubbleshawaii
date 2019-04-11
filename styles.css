@@ -1,10 +1,8 @@
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: yellow;
-  padding: 50px;
+body {
+  background-image: url(ef47f4c663869a49bdb6c70155e055a3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 div.logo {
   float: left;
@@ -17,16 +15,9 @@ td a {
   width: 100%;
   padding: 10px;
 }
-div.socialmedia, {
-  float: left;
-  width: 10%;
-}
-div.heading, {
-  float: left;
-  width: 90%;
-}
+
 h1 {
-  padding-left: 275px;
+  text-align: center;
 }
 div.logo {
   position: absolute;
@@ -34,11 +25,44 @@ div.logo {
   left: 150px;
 }
 nav {
+  float: none;
   position: absolute;
-  left: 300px;
+  top: 70%;
+  left: 43%;
 }
 iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+div.content {
+  display: block;
+  background-color: rgba(255, 255, 230, 0.35);;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 0;
+}
+div.sticky {
+  border: 1px solid black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(77, 148, 255, 1);
+  padding: 50px;
+}
+iframe {
+  border: 1px solid black;
+}
+#odd {
+  display: block;
+  float: right;
+  width: 300px;
+  height: auto;
+  padding: right 10px;
+}
+img {
+  border: 1px solid black;
 }
